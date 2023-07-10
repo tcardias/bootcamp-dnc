@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+
+#principal{
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+
+#menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#principal button{
+    margin-right: 5%;
+    background-color: #0C70F2;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 80px;
+    height: 39px;
+    border: 0px;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+    cursor: pointer;
+
+}
+
+#principal div a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#principal div a:hover{
+    color: #cccccc;
+}
